@@ -1,7 +1,7 @@
 <?php 
 	
 	require_once('nusoap/lib/nusoap.php');	
-	$client = new nusoap_client('http://localhost/pemilu/server.php?wsdl', true);	
+	$client = new nusoap_client('http://satub.burhanudin.me/satub_4795/server.php?wsdl', true);	
 
 	session_start();
 	$noktp = $_GET['id'];
